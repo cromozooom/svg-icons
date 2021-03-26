@@ -1,0 +1,23 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+	<path fill="none" stroke="#FBB03B" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M145,43h9.5c9.1,0,16.5,7.4,16.5,16.5v95c0,9.1-7.4,16.5-16.5,16.5h-109c-9.1,0-16.5-7.4-16.5-16.5v-95C29,50.4,36.4,43,45.5,43H64"/>
+	<line fill="none" stroke="#FBB03B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="64" y1="55" x2="64" y2="29"/>
+	<line fill="none" stroke="#FBB03B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="136" y1="55" x2="136" y2="29"/>
+	<line fill="none" stroke="#FBB03B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="171" y1="74" x2="46" y2="74"/>
+	<line fill="none" stroke="#FBB03B" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" x1="73" y1="43" x2="136" y2="43"/>
+	<circle fill="#FBB03B" cx="70" cy="100" r="4"/>
+	<circle fill="#FBB03B" cx="90" cy="100" r="4"/>
+	<circle fill="#FBB03B" cx="110" cy="100" r="4"/>
+	<circle fill="#FBB03B" cx="130" cy="100" r="4"/>
+	<circle fill="#FBB03B" cx="150" cy="100" r="4"/>
+	<circle fill="#FBB03B" cx="50" cy="120" r="4"/>
+	<circle fill="#FBB03B" cx="70" cy="120" r="4"/>
+	<circle fill="#FBB03B" cx="90" cy="120" r="4"/>
+	<circle fill="#FBB03B" cx="110" cy="120" r="4"/>
+	<circle fill="#FBB03B" cx="130" cy="120" r="4"/>
+	<circle fill="#FBB03B" cx="150" cy="120" r="4"/>
+	<circle fill="#FBB03B" cx="50" cy="140" r="4"/>
+	<circle fill="#FBB03B" cx="70" cy="140" r="4"/>
+	<circle fill="#FBB03B" cx="90" cy="140" r="4"/>
+	<circle fill="#FBB03B" cx="110" cy="140" r="4"/>
+	<circle fill="#FBB03B" cx="130" cy="140" r="4"/>
+</svg>
