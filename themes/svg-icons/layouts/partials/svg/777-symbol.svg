@@ -1,0 +1,8 @@
+<symbol id="seven-seven">
+<path fill="none" stroke="var(--stroke, #000000)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" d="M91,92.3V84h19v10.8c0,0-13.6,1.5-13.6,24.2"/>
+<path fill="none" stroke="var(--stroke, #000000)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" d="M136,92.3V84h19v10.8c0,0-13.6,1.5-13.6,24.2"/>
+<path fill="none" stroke="var(--stroke, #000000)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" d="M44,92.3V84h19v10.8c0,0-13.6,1.5-13.6,24.2"/>
+<path fill="none" stroke="var(--stroke, #000000)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" d="M159.6,138.9H41.4c-6.9,0-12.4-5.6-12.4-12.4v-53C29,66.6,34.6,61,41.4,61h118.1c6.9,0,12.4,5.6,12.4,12.4v53C172,133.3,166.4,138.9,159.6,138.9z"/>
+<line fill="none" stroke="var(--stroke, #000000)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" x1="124.3" y1="61" x2="124.3" y2="138.9"/>
+<line fill="none" stroke="var(--stroke, #000000)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" x1="76.7" y1="61" x2="76.7" y2="138.9"/>
+</symbol>

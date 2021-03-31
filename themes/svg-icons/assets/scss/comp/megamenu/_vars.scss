@@ -1,0 +1,50 @@
+$mmGeneral: $white;
+$mmPrimary: $primary;
+$mmSecondary: $black;
+$mmAccent: $primary;
+// mobile
+$mmMobileBg: $mmPrimary;
+$mmMobileColor: $mmGeneral;
+$mmMobileAccent: $mmAccent;
+// desktop
+$mmDeskBg: rgba($mmPrimary, .2);
+$mmDeskColor: lighten($primary, 10%);
+$mmDeskAccent: $black;
+
+$mm-container : 100%; // 1200px
+$mm-megamenuWidth : 1200px; // 1200px
+.mm-header {
+	--General : #{$mmGeneral};
+	--Primary : #{$mmPrimary}; 
+	--Secondary : #{$mmSecondary}; 
+	--Accent : #{$mmAccent};
+	$headerBg: $black;
+	--headerBg : #{$headerBg};
+	--mm-menuBg : #{$primary};
+	--mm-menuColor : #{$white};
+}
+
+@media(min-width: 991px) {
+	.mm-header {
+		--General : #{$mmGeneral}; 
+		--Primary : #{$mmPrimary};
+		--Secondary : #{$mmSecondary}; 
+		--Accent : #{$mmAccent}; 
+		$headerBg: rgba( $black, 1);
+		--headerBg : #{$headerBg};
+		--mm-menuBg : transparent;
+		--mm-menuColor : #{$white};
+	}
+}
+
+$iconStroke: rgba($primary, 1);
+$iconFill: transparent;
+$iconWeight: 7;
+
+.mm-header {
+	.svg-icon {
+		--bg: #{$iconFill};
+		--stroke: #{$iconStroke};
+		--s-width: #{$iconWeight};
+	}
+}

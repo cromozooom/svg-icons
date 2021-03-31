@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<polygon fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" points="100,50.5 111.3,85.3 147.9,85.3 118.3,106.8 129.6,141.6 100,120.1 70.4,141.6 81.7,106.8 52.1,85.3 88.7,85.3 "/>
+<circle fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" cx="100" cy="100" r="70.8"/>
+</svg>

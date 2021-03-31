@@ -1,0 +1,12 @@
+{{ $scss := "scss/pg/frontPage/critical/critical.scss" }}
+{{ $conf := "assets/scss/pg/frontPage/critical/postcss.config.js" }}
+{{ $targetPath := "css/index.css" }}
+{{ if .Site.IsServer }}
+	{{ with resources.Get $scss | resources.ExecuteAsTemplate $scss . | resources.ToCSS (dict "targetPath" $targetPath) | resources.Minify | resources.PostCSS (dict "config" $conf "noMap" true) | fingerprint }}
+	<style>{{ .Content | safeCSS }}</style>
+	{{ end }}
+{{ else }}
+	{{ with resources.Get $scss | resources.ExecuteAsTemplate $scss . | resources.ToCSS (dict "targetPath" $targetPath) | resources.Minify | resources.PostCSS (dict "config" $conf "noMap" true) | fingerprint }}
+	<style>{{ .Content | safeCSS }}</style>
+	{{ end }}
+{{ end }}

@@ -1,0 +1,63 @@
+.mm-header {
+	background: $mmDeskBg;
+}
+.mm-header .mm--menu > ul > li > a {
+	color: $mmDeskColor;
+	color: $mmDeskAccent;
+}
+.mm-header .mm--menu > ul > li .mm--sub-menu {
+	background-color:#ffffff;
+	box-shadow: -2px 2px 70px -25px rgba(0,0,0,0.3); 
+}
+
+.mm-header {
+	//border: 1px solid green;
+	.title {
+		color: $mmMobileAccent;
+	}
+}
+@media(min-width: 992px) {
+	.xmm-header {
+		border: 1px solid red;
+	}
+}
+@media(max-width: 991px) {
+	xmm-header {
+		border: 1px solid blue;
+	}
+	.mm-header .mm--menu {
+		width: 320px;
+		background-color: $mmMobileBg;
+		& > ul > li > a {
+			color: $mmMobileColor;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+		}
+	}
+	.menu-overlay {
+		background-color: rgba( $mmMobileBg, .5 );
+	}
+	.mm-header .mm--menu .mobile-menu-head {
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		background-color: #ffffff;
+		.go-back { 
+			border-right: 1px solid rgba(0,0,0,0.1);
+			color:#000000;
+		}
+		.current-menu-title {
+			font-size: 15px;
+			font-weight: 500;
+			color:#000000;
+		}
+		.mobile-menu-close {
+			border-left: 1px solid rgba(0,0,0,0.1);
+			color:#000000;	
+		}
+	}
+}
+
+.mm-header .mm--menu > ul > li .mm--sub-menu.mega-menu > .list-item > ul > li > a:hover,
+.mm-header .mm--menu > ul > li .mm--sub-menu > ul > li > a:hover,
+.mm-header .item-right a:hover,
+.mm-header .mm--menu > ul > li:hover > a {
+	color: $mmDeskColor;
+}

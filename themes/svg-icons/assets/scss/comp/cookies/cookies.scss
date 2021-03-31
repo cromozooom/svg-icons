@@ -1,0 +1,52 @@
+.cookies {
+	//font-family: $font-family-special;
+	background-color: $white;
+	background-image: linear-gradient(to top, white, #e6f2ff);
+	box-shadow: 0 -6px 25px rgba($primary, .3);
+	//position: relative;
+	color:  $gray-800;
+	font-size: .7rem;
+	//line-height: .8rem;
+	line-height: 120%;
+	position: fixed;
+
+	a:first-child {
+		color: $primary;
+		text-decoration: underline;
+	}
+	//.btn-primary {
+	//	background: black;
+	//	color: white;
+	//	border-radius: 50px;
+	//}
+}
+
+.cookies {
+	bottom: 1em;
+	left: 1em;
+	width: calc(15em + 1vw);
+	
+	z-index: 9;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+}
+
+@include media-breakpoint-up(md) {
+	.cookies {
+		//background-color: #fff;
+		box-shadow: 0 6px 40px rgba($primary, .3);
+		bottom: 1em;
+		border-radius: 5px;
+		left: 1em;
+		width: calc(15em + 1vw);
+		//a {
+		//	color: $yellow;
+		//	text-decoration: underline;
+		//}
+		//.btn-primary {
+		//	background: black;
+		//	color: white;
+		//}
+	}
+}

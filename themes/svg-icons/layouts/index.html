@@ -1,0 +1,10 @@
+{{ define "critical" }}
+	{{ partial "css/frontPage-critical.html" . }}
+{{ end }}
+{{ define "css" }}
+	{{ partial "css/frontPage.html" . }}
+{{ end }}
+
+{{ define "main" }}
+	{{ .Content }}
+{{ end }}

@@ -1,0 +1,60 @@
+{{ define "main" }}
+	{{ $details := getJSON "data/details.json" }}
+	{{ $detailsPath := "svg/details" }}
+	{{ $social := getJSON "data/social.json" }}
+	{{ $socialPath := "svg/social" }}
+	{{ $all := getJSON "data/all.json" }}
+	{{ $allPath := "svg" }}
+	{{ $all := index $all "icons" }}
+	{{ $social := index $social "icons" }}
+	{{ $details := index $details "icons" }}
+	<div class="conatiner-fluid py-4">
+		<h2>All</h2>
+		<ul class="icon-grid">
+			{{ range $index, $icon := $all }}
+				{{ if in $icon.title "symbol" }}
+				{{ else }}
+					{{ $path := $icon.title | printf "%s/%s" $allPath | printf "%s.svg" }}
+					<li>
+						<div class="svg">
+							{{ partial $path . }}
+						</div>
+						<p class="title">{{ .title }}</p>
+					</li>
+				{{ end }}
+			{{ end }}
+		</ul>
+		<hr>
+		<h2>Social</h2>
+		<ul class="icon-grid">
+			{{ range $index, $icon := $social }}
+				{{ if in $icon.title "symbol" }}
+				{{ else }}
+					{{ $path := $icon.title | printf "%s/%s" $socialPath | printf "%s.svg" }}
+					<li class="social">
+						<div class="svg">
+							{{ partial $path . }}
+						</div>
+						<p class="title">{{ .title }}</p>
+					</li>
+				{{ end }}
+			{{ end }}
+		</ul>
+		<hr>
+		<h2>Details</h2>
+		<ul class="icon-grid">
+			{{ range $index, $icon := $details }}
+				{{ if in $icon.title "symbol" }}
+				{{ else }}
+					{{ $path := $icon.title | printf "%s/%s" $detailsPath | printf "%s.svg" }}
+					<li class="details">
+						<div class="svg">
+							{{ partial $path . }}
+						</div>
+						<p class="title">{{ .title }}</p>
+					</li>
+				{{ end }}
+			{{ end }}
+		</ul>
+	</div>
+{{ end }}

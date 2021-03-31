@@ -1,0 +1,10 @@
+.mm--menu {
+	background: var(--mm-menuBg, transparent);
+	& > ul > li > a {
+		color: var(--mm-menuColor);
+	}
+}
+
+.mm-header .mm--menu > ul > li > a {
+	color: var(--mm-menuColor);
+}

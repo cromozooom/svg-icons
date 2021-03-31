@@ -1,0 +1,14 @@
+.mm-header .mm--menu > ul > li .single-column-menu {
+	min-width: $mm-megamenuWidth / 4;
+	max-width: $mm-megamenuWidth / 4;
+	& > .list-item > ul > li {
+	line-height: 1;
+	display: block; 
+	}
+	& > .list-item > ul > li > a  {
+		padding:10px 0;
+		display: inline-block;
+		font-size: 15px;
+		transition: color 0.3s ease;
+	}
+}

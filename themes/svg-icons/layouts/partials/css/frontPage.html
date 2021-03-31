@@ -1,0 +1,10 @@
+{{ $scss := "scss/pg/frontPage/frontpage.scss" }}
+{{ $conf := "assets/scss/pg/frontPage/postcss.config.js" }}
+{{ $targetPath := "css/index.css" }}
+{{ if .Site.IsServer }}
+	{{ $css := resources.Get $scss | resources.ExecuteAsTemplate $scss . | resources.ToCSS (dict "targetPath" $targetPath) | resources.Minify | resources.PostCSS (dict "config" $conf "noMap" true) | fingerprint }}
+	<link rel="stylesheet" href="{{ $css.Permalink }}">
+{{ else }}
+	{{ $css := resources.Get $scss | resources.ExecuteAsTemplate $scss . | resources.ToCSS (dict "targetPath" $targetPath) | resources.Minify | resources.PostCSS (dict "config" $conf "noMap" true) | fingerprint }}
+	<link rel="stylesheet" href="{{ $css.Permalink }}">
+{{ end }}

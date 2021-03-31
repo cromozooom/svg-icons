@@ -1,0 +1,23 @@
+
+.mm-header .logo a {
+	font-size: 30px;
+	//color:#000000;
+	font-weight: 700;
+	text-decoration: none;
+	svg {
+		height: 40px;
+		width: auto;
+		margin-top: -3px;
+	}
+}
+.item-right a { 
+	text-decoration: none;
+	font-size: 16px;
+	color:#ffffff;
+	display: inline-block;
+	margin-left: 10px;
+	transition: color 0.3s ease;
+}
+
+
+

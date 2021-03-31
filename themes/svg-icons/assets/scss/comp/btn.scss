@@ -1,0 +1,8 @@
+$btn-padding-y-xl:			.8rem; // .5rem !default;
+$btn-padding-x-xl:			1.5rem; // 1rem !default;
+$btn-font-size-xl:			$font-size-base * 1.5; //$font-size-base * 1.25 !default;
+$btn-border-radius-xl:		.3rem; //.3rem !default;
+
+.btn-xl {
+  @include button-size($btn-padding-y-xl, $btn-padding-x-xl, $btn-font-size-xl, $btn-border-radius-xl);
+}

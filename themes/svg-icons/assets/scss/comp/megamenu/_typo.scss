@@ -1,0 +1,50 @@
+$mainLinkColor: darken($gray-500, 20%);
+$titleLinkColor: $success;
+$titleColor: $black;
+.test-d-none {
+	@extend .d-none;
+}
+
+.sr-only {
+	display: none;
+}
+
+.mm--sub-menu {
+	li {
+		@extend .py-2;
+		@extend .py-md-1;
+	}
+	a {
+		color: $mainLinkColor;
+		font-size: 1rem;
+		@extend .py-2;
+		@extend .py-md-1;
+		//@extend .py-md-3;
+
+	}
+	.title {
+		font-size: 1rem;
+		color: $titleColor;
+		font-weight: 500;
+		//line-height: 1.2rem;
+		@extend .py-2;
+		//padding: 10px 0;
+		@extend .d-block;
+	}
+	a.title {
+		color: $titleLinkColor;
+		span {
+			@extend %txtDecorationUnderline;
+		}
+	}
+	&.text-center .title {
+		margin-bottom: 20px;
+	}
+	&.text-center:last-child .title {
+		margin-bottom:0px;
+	}
+	.mm-more {
+		color: $titleLinkColor;
+		@extend %txtDecorationUnderline;
+	}
+}

@@ -1,0 +1,8 @@
+# HUGO
+resources/
+public/
+.vscode/
+resources/_gen/
+
+# Dependency directories
+node_modules/

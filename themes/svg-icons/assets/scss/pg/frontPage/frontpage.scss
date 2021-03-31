@@ -1,0 +1,11 @@
+{{ if $.Site.Params.js.hideNavOnScroll }}
+	$enableMegamenu: true;
+{{ end }}
+
+@import "custom";
+@import "../../bs-5/bootstrap";
+@import "../../comp/comp";
+
+// * {
+// 	@extend .border;
+// }

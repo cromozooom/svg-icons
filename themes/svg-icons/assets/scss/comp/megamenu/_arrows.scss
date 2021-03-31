@@ -1,0 +1,26 @@
+.mm-header .mm--menu > ul > li > a span {
+	position: absolute;
+	display: auto;
+	height: 50px;
+	width: 35px;
+	top:0;
+	right: 0;
+	text-align: center;
+	line-height: 50px;
+	transform: rotate(0deg);
+}
+
+@media(min-width: 991px) { 
+	.mm-header .mm--menu > ul > li > a span {
+		position: initial;
+		display: inline-block;
+		line-height: 20px;
+		height: 20px;
+		// border: 1px solid red !important;
+		text-align: center;
+		font-size: 1.5rem;
+		// width: 20px !important;
+		transform: rotate(90deg);
+		// top: 50%;
+	}
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+	<circle fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" cx="100" cy="100" r="70.7"/>
+	<ellipse fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" cx="100" cy="100" rx="25" ry="70.7"/>
+	<path fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" d="M42.3 62h115.9M29.3 100h143M42.3 138h115.9"/>
+</svg>

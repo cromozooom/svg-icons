@@ -1,0 +1,59 @@
+.mm-header .mm--menu {
+	&  > ul > li {
+		display: inline-block;
+		margin-left: 25px;
+		//* {
+		//	@extend .border;
+		//}
+		& > a {
+			line-height: 50px;
+
+			font-size: 15px;
+			font-weight: 500;
+			position: relative;
+			text-transform: capitalize;
+			transition: color 0.3s ease;
+			
+			display: inline-flex; // align arrow on desktop
+			flex-direction: row;
+			align-items: center;
+		}
+		.mm--sub-menu {
+			position: absolute;
+			z-index: 500;
+			padding: 20px 30px;
+			transition: all 0.5s ease;
+			margin-top:25px;
+			opacity:0;
+			visibility: hidden;
+		}
+	}
+}
+
+@media(max-width: 991px) {
+	.mm-header .mm--menu {
+		width: 320px;
+		position: fixed;
+		left:0;
+		top:0;
+		height: 100%;
+		overflow: hidden;
+		transform: translate(-100%);
+		transition: all 0.5s ease;
+		z-index: 1099;
+		&.active {
+			transform: translate(0%);
+		}
+		&  > ul > li {
+			line-height: 1;
+			margin:0;
+			display: block;
+		}
+		& > ul > li > a {
+			line-height: 50px;
+			height: 50px;
+			padding:0 50px 0 15px;
+			display: block;
+		}
+	}
+}

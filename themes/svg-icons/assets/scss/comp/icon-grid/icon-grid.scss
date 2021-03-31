@@ -1,0 +1,41 @@
+h2 {
+	@extend .ms-4;
+}
+.icon-grid {
+	@extend .list-unstyled;
+	@extend .d-flex;
+	//@extend .justify-content-center;
+	@extend .flex-wrap;
+	@extend .text-center;
+	.title {
+		@extend .mt-3;
+	}
+	li {
+		@extend .p-2;
+		font-size: 80%;
+		min-width: 100px;
+		color: $black;
+		--size: 40px;
+		--s-width: 6;
+		--primary: #{$pink};
+		--secondary: #{$gray-500};
+	}
+	svg {
+		--s-width: 8;
+		width: var(--size, 40px);
+		height: var(--size, 40px);
+	}
+	li.social {
+		--size: 40px;
+		--s-width: 6;
+		color: $primary;
+	}
+	li.details {
+		//color: $pink;
+		--size: 60px;
+		--s-width: 6;
+		--primary: #{$pink};
+		--secondary: #{$gray-500};
+	}
+
+}

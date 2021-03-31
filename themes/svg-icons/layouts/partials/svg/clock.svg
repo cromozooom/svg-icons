@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" cx="101" cy="100" r="71"/>
+<polyline fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" points="100,39 100,100 150,100 "/>
+<path fill="none" stroke="var(--stroke, currentColor)" stroke-width="var(--s-width, 6)" stroke-linejoin="round" stroke-miterlimit="10" d="M114,29c0-7.7-6.3-14-14-14s-14,6.3-14,14"/>
+</svg>

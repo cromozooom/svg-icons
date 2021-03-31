@@ -1,0 +1,15 @@
+{
+	"icons" : [ 
+		{ "title" : "globe"},
+		{ "title" : "globe-symbol"},
+		{ "title" : "globe-1"},
+		{ "title" : "github"},
+		{ "title" : "facebook"},
+		{ "title" : "linked-in"},
+		{ "title" : "mail"},
+		{ "title" : "phone"},
+		{ "title" : "rss"},
+		{ "title" : "stack-overflow"},
+		{ "title" : "twitter"}
+	]
+}
