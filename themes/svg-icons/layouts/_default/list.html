@@ -19,12 +19,11 @@
 						<div class="svg">
 							{{ partial $path . }}
 						</div>
-						<p class="title">{{ .title }}</p>
+						<span class="title">{{ .title }}</span>
 					</li>
 				{{ end }}
 			{{ end }}
 		</ul>
-		<hr>
 		<h2>Social</h2>
 		<ul class="icon-grid">
 			{{ range $index, $icon := $social }}
@@ -35,12 +34,11 @@
 						<div class="svg">
 							{{ partial $path . }}
 						</div>
-						<p class="title">{{ .title }}</p>
+						<span class="title">{{ .title }}</span>
 					</li>
 				{{ end }}
 			{{ end }}
 		</ul>
-		<hr>
 		<h2>Details</h2>
 		<ul class="icon-grid">
 			{{ range $index, $icon := $details }}
@@ -51,7 +49,7 @@
 						<div class="svg">
 							{{ partial $path . }}
 						</div>
-						<p class="title">{{ .title }}</p>
+						<span class="title">{{ .title }}</span>
 					</li>
 				{{ end }}
 			{{ end }}

@@ -12,6 +12,8 @@ h2 {
 	}
 	li {
 		@extend .p-2;
+		@extend .m-3;
+		@extend .text-center;
 		font-size: 80%;
 		min-width: 100px;
 		color: $black;
@@ -20,10 +22,22 @@ h2 {
 		--primary: #{$pink};
 		--secondary: #{$gray-500};
 	}
+	.svg {
+		background: $gray-100;
+		width: var(--bg-size, 80px);
+		height: var(--bg-size, 80px);
+		@extend .text-center;
+		@extend .mx-auto;
+		@extend .mb-2;
+		@extend .d-flex;
+		@extend .align-items-center;
+		border-radius: 10px;
+	}
 	svg {
 		--s-width: 8;
 		width: var(--size, 40px);
 		height: var(--size, 40px);
+		@extend .mx-auto;
 	}
 	li.social {
 		--size: 40px;
