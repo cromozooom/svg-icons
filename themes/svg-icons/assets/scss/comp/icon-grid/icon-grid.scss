@@ -15,8 +15,8 @@ h2 {
 		font-size: 80%;
 		min-width: 100px;
 		color: $black;
-		--size: 40px;
-		--s-width: 6;
+		--size: 30px;
+		--s-width: 5;
 		--primary: #{$pink};
 		--secondary: #{$gray-500};
 	}
@@ -26,7 +26,7 @@ h2 {
 		height: var(--size, 40px);
 	}
 	li.social {
-		--size: 40px;
+		--size: 30px;
 		--s-width: 6;
 		color: $primary;
 	}
@@ -35,7 +35,7 @@ h2 {
 		--size: 60px;
 		--s-width: 6;
 		--primary: #{$pink};
-		--secondary: #{$gray-500};
+		--secondary: #{$gray-400};
 	}
 
 }
